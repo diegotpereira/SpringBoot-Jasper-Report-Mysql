@@ -28,7 +28,7 @@ public class EmployeeReportService {
 
 			List<Employee> employees = reportRepository.findAll();
 
-			String reportPath = "F:\\Content\\Report";
+			String reportPath = "C:\\Users\\T.I\\eclipse-workspace\\SpringBoot-JasperReports-MySql-Master\\src\\main\\resources";
 
 			// Compile the Jasper report from .jrxml to .japser
 			JasperReport jasperReport = JasperCompileManager
